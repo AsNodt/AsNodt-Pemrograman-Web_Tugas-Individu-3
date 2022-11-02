@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>120140193_TugasIndividu3</title>
+</head>
+<body>
+    <header>
+        <h2>. Daps Makelar Ticket</h2>
+    </header>
+    <div class="container">
+        <div class="data">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama..." class="kon">
+        </div>
+        <div class="data">
+            <label for="konser">Konser</label>
+            <select name="konser" id="konser" class="kon">
+                <option value="slipknot">Slipknot</option>
+                <option value="twice">Twice</option>
+                <option value="neckdeep">Neckdeep</option>
+                <option value="blackpink">Blackpink</option>
+            </select>
+        </div>
+        <div class="data">
+            <label for="jumlah_tiket">Jumlah Tiket</label>
+            <input type="number" name="jumlah_tiket" id="jumlah_tiket" placeholder="Masukkan jumlah..." class="kon">
+        </div>
+        <div class="vip">
+            <label for="vip">VIP</label>
+            <div class="radio">
+                <div>
+                <input type="radio" name="vip" id="vipya" value="ya">Ya
+            </div>
+            <div>
+                <input type="radio" name="vip" id="vipno" value="tidak">Tidak
+            </div>
+            </div>
+        </div>
+        <div class="tombol">
+            <button id="cek">CEK HARGA</button>
+            <button id="reset">RESET</button>
+        </div>
+    </div>
+
+    <div class="struck-container" id="struck-container">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

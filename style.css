@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    background: url(R.jpg);
+}
+
+header{
+    background-color: #5c2e7e;
+    color: white;
+    margin: 10px;
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container{
+    background-color: #4c6793;
+    border-radius: 25px;
+    margin: auto;
+    width: 600px;
+    padding: 2rem;
+    margin-bottom: 5vh;
+}
+
+.data{
+    /* width: 50vw; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.kon {
+    width: 50%;
+    height: 60%;
+}
+
+.vip{
+    /* width: 50vw; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vip label {
+    flex: 1;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0 200px;
+}
+
+.tombol {
+    /* background-color: #5c2e7e; */
+    width: fit-content;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.tombol button {
+    margin: 0 10px;
+}
+
+.struck-container {
+    background-color: #ffffff;
+    color: black;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20vh;
+    font-family: consolas;
+}
+
+.struck-container h2 {
+    text-align: center;
+}
+
+.struck-container .header{
+    border-bottom: 2px solid black;
+    margin: 20px 0 10px 0;
+    padding-bottom: 5px;
+}
+
+.struck-container .description {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.struck-container .total {
+    border-bottom: 2px solid black;
+    padding: 5px 0 5px 0;
+    /* margin-bottom: 100px; */
+}
+
+.ty {
+    text-align: center;
+    margin: 30px 0 100px 0;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
